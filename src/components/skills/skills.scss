@@ -1,0 +1,49 @@
+@import "../../app.scss";
+
+.skills{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background: radial-gradient(circle, #0c0c1d 30%, #000000);
+    
+}
+.stars{
+    background-image: url("/stars.png");
+    background-size: cover;
+    width: 99%;
+    height: 98vh;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    opacity: 0.5;
+}
+.skillsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 2;
+    gap: 5px;
+}
+
+.heading{
+    z-index: 2;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+.imgs{
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgs:hover{
+    transform: rotate(720deg);
+}

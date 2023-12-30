@@ -3,6 +3,18 @@ html {
     scroll-behavior: smooth;
   }
   
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 123, 0); 
+}
   * {
     padding: 0;
     margin: 0;
