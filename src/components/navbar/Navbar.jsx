@@ -19,10 +19,10 @@ const Navbar = () => {
           animate={{y:0, opacity: 1, scale: 1 }}
           transition={{ type:"spring",duration: 2 }}
           className="social">
-            <a href='#'><img src="/instagram.png" alt="" /></a>
+            <a href='https://www.instagram.com/abhaynarayann/' target='_blank' rel='noreferrer'><img src="/instagram.png" alt="" /></a>
             <a href='#'><img src="/facebook.png" alt="" /></a>
-            <a href='#'><img src="/linkedin.png" alt="" /></a>
-            <a href='#'><img src="/github.png" alt="" /></a>
+            <a href='https://www.linkedin.com/in/abhay-narayan-846885219/' rel='noreferrer' target='_blank'><img src="/linkedin.png" alt="" /></a>
+            <a href='https://github.com/Abhay-Narayan/' target='_blank' rel='noreferrer'><img src="/github.png" alt="" /></a>
           </motion.div>
         </div>
     </div>

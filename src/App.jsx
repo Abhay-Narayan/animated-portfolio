@@ -4,9 +4,12 @@ import Navbar from './components/navbar/Navbar';
 import Parallax from './components/parallax/Parallax';
 import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
+import Contact from './components/contact/Contact';
+import Cursor from './components/cursor/Cursor';
 
 const App = () => { 
   return <div>
+    <Cursor/>
     <section id="Homepage">
       <Navbar/>
       <Hero/>
@@ -14,10 +17,7 @@ const App = () => {
     <section id='Portfolio'><Parallax type="portfolio"/></section>
     <Portfolio/>
     <section id='Skills'><Skills/></section> 
-    {/* <section id='Portfolio'>portfolio</section>
-    <section>portfolio2</section>
-    <section>portfolio3</section>
-    <section id='Contact'>Contact</section> */}
+    <section id='Contact'><Contact/></section> 
   </div>;
 };
 
