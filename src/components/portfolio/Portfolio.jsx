@@ -7,28 +7,28 @@ const items = [
     id: 1,
     title: "React eCommerce",
     img: "https://img.freepik.com/free-vector/ecommerce-internet-shopping-promotion-campaign_335657-2977.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "An Ecommerce Application based on MERN stack which have features like Admin Dashboard, React Stripe Payments, Cart functionality all in a single project",
     link:"https://github.com/Abhay-Narayan/Ecom"
   },
   {
     id: 2,
     title: "Next.js Ai-Blog",
     img: "https://img.freepik.com/free-vector/blogging-illustration-concept_114360-788.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "A NextJs application which uses AI to generate content for the blogs using GPT-3.5(turbo)",
     link:"https://github.com/Abhay-Narayan/AI-Blog-app"
   },
   {
     id: 3,
     title: "Social Media Application",
     img: "https://img.freepik.com/free-vector/hand-drawn-illustration-people-with-smartphone-marketing_52683-66659.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "An online Social Media platform which allows users to socially interact by sharing photos and making friends. Used MERN stack along with Tailwind CSS to design and maintain the smooth flow of the website",
     link:"https://github.com/Abhay-Narayan/Social-media"
   },
   {
     id: 4,
     title: "Chat Application",
     img: "https://img.freepik.com/free-vector/messenger-concept-illustration_114360-860.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    desc: "Developed a web application using streamchat REACT API to implement the chat functionality. Implemented the login/Signup Functionality for secure browsing of the application along with proper authentication. ",
     link:"https://github.com/Abhay-Narayan/Chat-app-frontend"
   },
 ];
